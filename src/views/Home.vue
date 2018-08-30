@@ -1,8 +1,10 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
-  </div>
+  <v-container justify-center fill-height class="home">
+    <v-container>
+      <img alt="Vue logo" src="../assets/ribbon_mini.png">
+      <HelloWorld msg="Welcome to My test page"/>
+    </v-container>
+  </v-container>
 </template>
 
 <script lang="ts">
@@ -14,5 +16,11 @@ import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
     HelloWorld,
   },
 })
-export default class Home extends Vue {}
+export default class Home extends Vue {
+}
 </script>
+
+<style lang="sass">
+.home
+  text-align: center
+</style>

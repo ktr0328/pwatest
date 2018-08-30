@@ -1,6 +1,6 @@
 {
-  "name": "particle-pwa",
-  "short_name": "particle-pwa",
+  "name": "pwa-test",
+  "short_name": "pwa-test",
   "icons": [
     {
       "src": "/img/icons/android-chrome-192x192.png",

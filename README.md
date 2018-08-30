@@ -1,4 +1,4 @@
-# particle-pwa
+# pwa-test
 
 ## Project setup
 ```
